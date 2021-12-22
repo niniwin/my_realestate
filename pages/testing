@@ -1,0 +1,10 @@
+const MaApp({Component,pagePropes})=>{
+
+    return(
+        <ChakraProvider>
+        <Layout>
+        <Component {...pagePropes} />
+        </Layout>
+
+    )
+}
